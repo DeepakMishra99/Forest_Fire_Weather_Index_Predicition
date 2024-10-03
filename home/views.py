@@ -5,7 +5,7 @@ from django.conf import settings
 from django.http import JsonResponse
 import numpy as np
 from sklearn.preprocessing import StandardScaler
-
+from sklearn.metrics import accuracy_score
 from sklearn.linear_model import Ridge
 
 
@@ -80,11 +80,18 @@ def predict(request):
         try:
             result = ridge_model.predict(new_data_scaled)
            
+            
+        
+           
         except Exception as e:
             return JsonResponse({"error": f"Prediction error: {str(e)}"}, status=500)
+        
+
 
         # Render the result in the template
         return render(request, 'fire_forcast.html', {'results': result[0]})
 
     else:
         return render(request, 'fire_forcast.html')
+    
+
