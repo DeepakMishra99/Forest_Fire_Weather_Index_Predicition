@@ -2,7 +2,7 @@
 
 <h2>Overview</h2>
     <p>This project focuses on predicting the <strong>Forest Fire Weather Index (FWI)</strong> based on meteorological data derived from the <strong>Algerian Forest Fire Dataset</strong>. The model used for prediction is <strong>Ridge Regression</strong>, which is ideal for handling multicollinearity and producing more generalized models.</p>
-<img src="image.png"  width="500" height="600">
+<img src="image.png"  width="900" height="600">
 <h2>Dataset</h2>
     <p>The dataset utilized is the <em>Algerian Forest Fire Dataset</em>, which includes the following features:</p>
     <ul>
