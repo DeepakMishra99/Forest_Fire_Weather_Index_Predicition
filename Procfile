@@ -1,0 +1,1 @@
+web: gunicorn Forest_Fire_Index_Prediction.wsgi --log-file -

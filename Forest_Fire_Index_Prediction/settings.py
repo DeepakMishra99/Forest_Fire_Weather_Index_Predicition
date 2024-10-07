@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-jbf(ewaa!5h*dj8--+ov8c6%bnan&)yx$^jmd0)94h7h=mff%$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['eb-django-app-dev.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['Forest_Fire_Index_Prediction.elasticbeanstalk.com']
 
 
 # Application definition
